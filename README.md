@@ -19,6 +19,7 @@ py -m venv .venv
 .venv\Scripts\Activate
 py -m pip install --upgrade pip 
 py -m pip install -r requirements.txt
+Retrieve installed items: !pip list
 ```
 ### 3. Git add, clone, and commit
 ```
@@ -34,3 +35,8 @@ git push -u origin main
    git clone example-repo-url
 3. Open your new cloned repository in VS Code.
 ```
+### 5. spaCy Specific Installs
+```
+1. pip install -U pip setuptools wheel
+2. pip install -U spacy
+3. python -m spacy download en_core_web_sm
