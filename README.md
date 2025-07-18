@@ -40,3 +40,6 @@ git push -u origin main
 1. pip install -U pip setuptools wheel
 2. pip install -U spacy
 3. python -m spacy download en_core_web_sm
+```
+### 6. HTML Export
+import os os.system('jupyter nbconvert --to html python-ds.ipynb')
